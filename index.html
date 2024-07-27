@@ -3,12 +3,12 @@
 <head>
   <title>Map App</title>
   <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
-  <style>
-    #map { height: 100vh; }
-  </style>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <div id="map"></div>
+  <button id="upload-button">Upload File</button>
+  
   <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
   <script>
     const map = L.map('map').setView([0, 0], 2);
@@ -20,10 +20,8 @@
     const latlng = [51.505, -0.09];
     L.marker(latlng).addTo(map);
   </script>
-
-<button id="upload-button">Upload File</button>
-<script src="leaflet.js"></script>
-<script src="renderer.js"></script>
-
+  
+  <script src="leaflet.js"></script>
+  <script src="renderer.js"></script>
 </body>
 </html>
