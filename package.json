@@ -1,22 +1,12 @@
 {
-  "name": "map-project",
+  "name": "my-project",
   "version": "1.0.0",
-  "description": "map project that demonstrates shortest path alog",
+  "description": "A description of my project",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "electron ."
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/HousamAT/Map-Project.git"
-  },
-  "author": "Housam At",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/HousamAT/Map-Project/issues"
-  },
-  "homepage": "https://github.com/HousamAT/Map-Project#readme",
-  "dependencies": {
-    "electron": "^31.3.0"
+  "devDependencies": {
+    "electron": "31.3.0" 
   }
 }
