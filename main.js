@@ -45,3 +45,4 @@ ipcMain.handle('read-file', async (event, filePath) => {
   const data = await fs.promises.readFile(filePath, 'utf-8');
   return data;
 });
+
